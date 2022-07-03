@@ -37,9 +37,10 @@ const ToDo = () => {
               value={task}
               onKeyDown={handlerKeyPress}
               type="text"
-              className="form-control bg-black"
+              className="form-control bg-black mb-2"
               id="floatingInput "
               placeholder="Tarea por hacer"
+              style={{ color: 'white'}}
             />
             <label htmlFor="floatingInput">Tarea por hacer</label>
             <div className="task"></div>

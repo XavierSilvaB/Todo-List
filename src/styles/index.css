@@ -18,13 +18,24 @@ body{
     height: 180px;
 }
 
-input::placeholder{
+label{
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
+input{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus{
+outline: 7px ridge rgba(170, 50, 220, .6);
+border-radius: 5px;
+}
 .title-principal{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fa-regular{
+    display: none;
 }
